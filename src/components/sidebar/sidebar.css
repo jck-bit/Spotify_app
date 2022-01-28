@@ -2,18 +2,69 @@
     flex: 3;
     height: calc(100vh - 50px);
     
-}
-
+ }
 .sidebarWrapper{
     padding: 20px;
+    
+}
+
+.home{
+    margin:0;
+
+}
+.next{
+    margin-top: -20px;
+}
+
+.spotify{
+    height: 60px;
+    width: 60px;
+    border-radius:90%;
+    object-fit: cover;
+    
+
 }
 
 .sidebarList{
     padding: 0;
     margin: 0;
     list-style: none;
+    border-bottom: 2.5px solid rgb(138, 134, 134);
 }
 .sidebarListItem{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.main{
+    margin-top: 10px;
+}
+
+.sidebarIcon{
+    margin-right:18px;
+} 
+
+.sidebarHr{
+    margin: 20px 0;
+}
+.sidebarSongList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.sidebarSong{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
 }

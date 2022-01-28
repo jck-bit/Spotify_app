@@ -1,10 +1,18 @@
 import './sidebar.css'
-import { Favorite, Home, LocalHospitalOutlined, Menu, PlaylistAdd, Search } from '@material-ui/icons';
+
+
+import { Favorite, Home, LocalHospitalOutlined, Menu, Search } from '@material-ui/icons';
 
 export default function Sidebar() {
   return <div className='sidebar'>
       <div className="sidebarWrapper">
           <ul className="sidebarList">
+              <li className="sidebarListItem">
+                  <div className="home">
+                  <img src="assets/person/spotify.jpeg" alt="" className="spotify" />
+                  <span className='next'>Home</span>
+                  </div>
+              </li>
               <li className="sidebarListItem">
                   <Home className='sidebarIcon'/>
                   <span className='sidebarListItemText'>Home</span>
@@ -26,6 +34,52 @@ export default function Sidebar() {
                   <span className='sidebarListItemText'>Your Library</span>
               </li>
           </ul>
+         <div className="main">
+          {/* <hr className='sidebarHr'/> */}
+          <ul className='sidebarSongList'>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">2010's mix</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">selected</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Future House</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Top Hits 2015</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Uk drill</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Life sucks</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">Hit Rewind</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">NF Real Music</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">NF Real Music</span>
+              </li>
+              <li className="sidebarSong">
+                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <span className="sidebarFriendName">NF Real Music</span>
+              </li>
+              
+          </ul>
+       </div>
       </div>
   </div>;
 }
