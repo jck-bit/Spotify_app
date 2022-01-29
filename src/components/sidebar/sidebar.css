@@ -1,13 +1,12 @@
 .sidebar{
-    flex: 3;
+    flex: 2;
     height: calc(1000vh - 50px);
     border-right: 1px solid rgb(138, 134, 134);
 
  }
 .sidebarWrapper{
     padding: 2rem;
-    margin-left: 20px;
-    
+    margin-left: 20px;    
 }
 
 .home{
@@ -33,6 +32,14 @@
     list-style: none;
     border-bottom: 2.5px solid rgb(138, 134, 134);
 }
+/* .sidebarList :hover {
+    height: 35px;
+    width: 65px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: gray;
+    cursor: pointer;
+} */
 .sidebarListItem{
     display: flex;
     align-items: center;
@@ -62,6 +69,8 @@
     align-items: center;
     margin-bottom: 25px;
 }
+
+
 
 .sidebarFriendImg{
     width: 52px;

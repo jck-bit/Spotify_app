@@ -1,0 +1,21 @@
+.sing{
+    margin-top: 5rem;
+    margin-left: 0;
+}
+
+.myList{
+    list-style: none;
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 10rem);
+}
+
+.order{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+}

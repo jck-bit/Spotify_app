@@ -38,7 +38,7 @@ export default function Sidebar() {
           {/* <hr className='sidebarHr'/> */}
           <ul className='sidebarSongList'>
               <li className="sidebarSong">
-                  <img src="/assets/person/me.jpeg" alt="" className="sidebarFriendImg" />
+                  <img src="/assets/person/download.jpeg" alt="" className="sidebarFriendImg" />
                   <span className="sidebarFriendName">2010's mix</span>
               </li>
               <li className="sidebarSong">
