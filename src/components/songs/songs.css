@@ -19,3 +19,19 @@
     border: 1px solid rebeccapurple;
     margin-bottom: 10px;
 }
+
+
+
+.another_one{
+    list-style: none;
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 10rem);
+}
+.school_bus{
+    width: 10rem;
+    height: 18rem;
+    border-radius: 5px; 
+    border: 1px solid rebeccapurple;
+    margin-bottom: 10px;
+}

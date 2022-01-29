@@ -11,7 +11,7 @@ export default function Songs() {
             </h1>
         </div>
         <div className="singBottom">
-            <div className="myList">
+            <div className="List">
                 <ul className='myList'>
                     <li className="order">
                     <Favorite className='sidebarIcon'/>
@@ -41,7 +41,26 @@ export default function Songs() {
             </div>
         </div>
         <div className="anotherBottom">
-            <h1>Your daily mixes</h1>
+         <div className="header">
+                <h1>Your Daily mixes</h1>
+            </div>
+            <div className="downer">
+             <ul className='another_one'>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                </ul>
+            </div>  
         </div>
+        <hr/>
   </div>;
 }
