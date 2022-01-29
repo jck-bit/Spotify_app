@@ -1,6 +1,8 @@
 import React from 'react';
 import './songs.css'
 import { Favorite } from '@material-ui/icons';
+import Footer from '../footer/Footer'
+
 
 
 export default function Songs() {
@@ -31,8 +33,8 @@ export default function Songs() {
                     </li>
                     <li className="order">
                     <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
-                    </li>
+                    <span className='sidebarListItemText'>Liked songs</span>    
+                    </li>                            
                     <li className="order">
                     <Favorite className='sidebarIcon'/>
                     <span className='sidebarListItemText'>Liked songs</span>
@@ -62,5 +64,6 @@ export default function Songs() {
             </div>  
         </div>
         <hr/>
+       <Footer />
   </div>;
 }

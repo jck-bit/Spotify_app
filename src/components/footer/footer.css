@@ -1,0 +1,21 @@
+.FooterWrapper{
+    align-items: center;
+    display: flex;
+
+}
+
+.Footerchats{ 
+    flex: 3;
+}
+
+.FooterComments{
+    flex: 3;
+}
+
+.FooterEvents{
+    flex:3;
+}
+
+.FooterDiscoveries{
+    flex: 3;
+}

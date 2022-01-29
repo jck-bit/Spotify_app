@@ -26,7 +26,7 @@ export default function Sidebar() {
                   <span className='sidebarListItemText'>Create Playlist</span>
               </li>
               <li className="sidebarListItem">
-                  <Favorite className='sidebarIcon'/>
+                  <Favorite htmlColor='blue' className='sidebarIcon'/>
                   <span className='sidebarListItemText'>Liked songs</span>
               </li>
               <li className="sidebarListItem">

@@ -16,7 +16,7 @@
     border-radius: 5px; 
     display: flex;
     align-items: center;
-    border: 1px solid rebeccapurple;
+    border: 1px solid rgb(93, 129, 38);
     margin-bottom: 10px;
 }
 
@@ -32,6 +32,6 @@
     width: 10rem;
     height: 18rem;
     border-radius: 5px; 
-    border: 1px solid rebeccapurple;
+    border: 1px solid rgb(93, 129, 38);
     margin-bottom: 10px;
 }
