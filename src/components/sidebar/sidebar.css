@@ -1,10 +1,12 @@
 .sidebar{
     flex: 3;
-    height: calc(100vh - 50px);
-    
+    height: calc(1000vh - 50px);
+    border-right: 1px solid rgb(138, 134, 134);
+
  }
 .sidebarWrapper{
-    padding: 20px;
+    padding: 2rem;
+    margin-left: 20px;
     
 }
 
@@ -34,7 +36,7 @@
 .sidebarListItem{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .main{
@@ -58,13 +60,14 @@
 .sidebarSong{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .sidebarFriendImg{
-    width: 32px;
-    height: 32px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+    cursor:pointer;
 }
