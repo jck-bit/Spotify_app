@@ -78,45 +78,45 @@ export default function Songs() {
                 </li>
                 <li className="school_bus">
                    <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                      <img src="/assets/person/Bandit.jpeg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>Clean Bandit Radio </span>
+                </li>
+                <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/julia.jpeg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>julia Michaels</span>
                 </li>
                 <li className="school_bus">
                    <div className="main">
                       <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>NF Real Music Radio</span>
                 </li>
                 <li className="school_bus">
                    <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                      <img src="/assets/person/edm.jpeg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>EDM Radio</span>
                 </li>
                 <li className="school_bus">
                    <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                      <img src="/assets/person/selena.jpeg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>This is Selena Gomez</span>
                 </li>
                 <li className="school_bus">
                    <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                      <img src="/assets/person/drake.jpeg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>Trap Music</span>
                 </li>
                 <li className="school_bus">
                    <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                      <img src="/assets/person/weekend.jpeg" alt="" className="DailyImg" />
                    </div>
-                    <span className='DownList'>Liked songs</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>Liked songs</span>
+                    <span className='DownList'>Hit Rewind</span>
                 </li>
                 </ul>
             </div>  
