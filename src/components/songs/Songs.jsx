@@ -20,9 +20,9 @@ export default function Songs() {
                 <ul className='myList'>
                     <li className="order">
                         <div className="Icon">
-                          <img src="/assets/person/life_sucks.jpeg" alt="" className="iconImg" />
+                          <img src="/assets/person/like.jpeg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>Life Sucks</span>
+                    <span className='sidebarListItemText'>Liked songs</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
@@ -50,15 +50,15 @@ export default function Songs() {
                     </li>
                     <li className="order">
                         <div className="Icon">
-                          <img src="/assets/person/jb.jpg" alt="" className="iconImg" />
+                          <img src="/assets/person/life_sucks.jpeg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>This is Justin</span>
+                    <span className='sidebarListItemText'>Life Sucks</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
-                          <img src="/assets/person/jb.jpg" alt="" className="iconImg" />
+                          <img src="/assets/person/download.jpeg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>This is Justin</span>
+                    <span className='sidebarListItemText'>2010 Playlist</span>
                     </li>
                 </ul>
             </div>
@@ -70,21 +70,53 @@ export default function Songs() {
             </div>
             <div className="downer">
              <ul className='another_one'>
-                <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+               <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/lazer.jpeg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Major Lazer</span>
                 </li>
                 <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
                 </li>
                 <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
                 </li>
                 <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                   <div className="main">
+                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
+                   </div>
+                    <span className='DownList'>Liked songs</span>
                 </li>
                 </ul>
             </div>  

@@ -9,7 +9,7 @@
     list-style: none;
     display:grid;
     grid-gap: 20px;
-    grid-template-columns: repeat(4, 12rem);
+    grid-template-columns: repeat(4, 13.5rem);
 }
 .singTop{
     margin-top:0px;
@@ -29,7 +29,7 @@ h1{
 
 
 .order{
-    width: 11rem;
+    width: 13.5rem;
     height: 5rem;
     border-radius: 5px; 
     display: flex;
@@ -61,6 +61,26 @@ h1{
 .header{
     margin-left:15px;
 }
+
+.main{
+    padding: 15px;
+}
+
+
+.DailyImg{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+.DownList{
+  
+  padding: 2rem;
+}
+
+
+
+
+
 
 .another_one{
     list-style: none;
