@@ -7,12 +7,12 @@ export default function Sidebar() {
   return <div className='sidebar'>
       <div className="sidebarWrapper">
           <ul className="sidebarList">
-              <li className="sidebarListItem">
+              {/* <li className="sidebarListItem">
                   <div className="home">
                   <img src="assets/person/spotify.jpeg" alt="" className="spotify" />
                   <span className='next'>Spotify</span>
                   </div>
-              </li>
+              </li> */}
               <li className="sidebarListItem">
                   <Home className='sidebarIcon'/>
                   <span className='sidebarListItemText'>Home</span>

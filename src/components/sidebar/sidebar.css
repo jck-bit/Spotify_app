@@ -1,7 +1,7 @@
 .sidebar{
     flex: 2;
     height: calc(1000vh - 50px);
-    border-right: 1px solid rgb(138, 134, 134);
+    border-right: 1px solid rgb(0, 0, 0);
 
  }
 .sidebarWrapper{

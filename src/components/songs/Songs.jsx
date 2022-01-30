@@ -121,30 +121,34 @@ export default function Songs() {
                 </ul>
             </div>  
             <div className="header">
-                <h1>Jump Back  in </h1>
+                <h1>Discover </h1>
             </div>
             <div className="downer">
              <ul className='another_one'>
-                <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                <li className="Discover">
+                    <img src="/assets/person/shin.jpeg" alt=""  className='DiscoverImg'/>
+                    <span className='sidebarListItemText'>Nyashinski</span>
                 </li>
-                <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                <li className="Discover">
+                    <img src="/assets/person/charlie.jpeg" alt=""  className='DiscoverImg'/>
+                    <span className='sidebarListItemText'>Charli Puth</span>
                 </li>
-                <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                <li className="Discover">
+                    <img src="/assets/person/tion.jpeg" alt=""  className='DiscoverImg'/>
+                    <span className='sidebarListItemText'>Tion Wayne</span>
                 </li>
-                <li className="school_bus">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                <li className="Discover">
+                    <img src="/assets/person/sigrid.jpeg" alt=""  className='DiscoverImg'/>
+                    <span className='sidebarListItemText'>Sigrid</span>
+                </li>
+                <li className="Discover">
+                    <img src="/assets/person/shawn.jpeg" alt=""  className='DiscoverImg'/>
+                    <span className='sidebarListItemText'>Shawn Mendes</span>
                 </li>
                 </ul>
             </div>  
         </div>
-        <hr/>
-       <Footer />
+        {/* <hr/> */}
+       {/* <Footer /> */}
   </div>;
 }
