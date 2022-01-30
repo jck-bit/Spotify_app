@@ -20,45 +20,45 @@ export default function Songs() {
                 <ul className='myList'>
                     <li className="order">
                         <div className="Icon">
-                         <Favorite className='songIcon'/>
+                          <img src="/assets/person/life_sucks.jpeg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                    <span className='sidebarListItemText'>Life Sucks</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
-                         <Favorite className='songIcon'/>
+                          <img src="/assets/person/nf.jpg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>Future House</span>
+                    <span className='sidebarListItemText'>NF Real Music</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
-                         <Favorite className='songIcon'/>
+                          <img src="/assets/person/selected.jpg" alt="" className="iconImg" />
                         </div>
                     <span className='sidebarListItemText'>Selected</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
-                         <Favorite className='songIcon'/>
-                        </div>
-                    <span className='sidebarListItemText'>Uk Drill</span>
-                    </li>
-                    <li className="order">
-                        <div className="Icon">
-                         <Favorite className='songIcon'/>
-                        </div>
-                    <span className='sidebarListItemText'>Nf Real Music</span>
-                    </li>
-                    <li className="order">
-                        <div className="Icon">
-                         <Favorite className='songIcon'/>
+                          <img src="/assets/person/jb.jpg" alt="" className="iconImg" />
                         </div>
                     <span className='sidebarListItemText'>This is Justin Bieber</span>
                     </li>
                     <li className="order">
                         <div className="Icon">
-                         <Favorite className='songIcon'/>
+                          <img src="/assets/person/2015.jpg" alt="" className="iconImg" />
                         </div>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                    <span className='sidebarListItemText'>2015 Playlist</span>
+                    </li>
+                    <li className="order">
+                        <div className="Icon">
+                          <img src="/assets/person/jb.jpg" alt="" className="iconImg" />
+                        </div>
+                    <span className='sidebarListItemText'>This is Justin</span>
+                    </li>
+                    <li className="order">
+                        <div className="Icon">
+                          <img src="/assets/person/jb.jpg" alt="" className="iconImg" />
+                        </div>
+                    <span className='sidebarListItemText'>This is Justin</span>
                     </li>
                 </ul>
             </div>
@@ -67,6 +67,29 @@ export default function Songs() {
         <div className="anotherBottom">
          <div className="header">
                 <h1>Your Daily mixes</h1>
+            </div>
+            <div className="downer">
+             <ul className='another_one'>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
+                </ul>
+            </div>  
+            <div className="header">
+                <h1>Jump Back  in </h1>
             </div>
             <div className="downer">
              <ul className='another_one'>
