@@ -7,40 +7,62 @@ import Footer from '../footer/Footer'
 
 export default function Songs() {
   return <div className='sing'>
+      <div className="whole">
         <div className="singTop">
-            <h1>
-                Good Evening
-            </h1>
+           <div className="H1">
+               <h1>
+                   Good Evening
+               </h1>
+           </div>
         </div>
         <div className="singBottom">
             <div className="List">
                 <ul className='myList'>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
                     <span className='sidebarListItemText'>Liked songs</span>
                     </li>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
+                    <span className='sidebarListItemText'>Future House</span>
                     </li>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
+                    <span className='sidebarListItemText'>Selected</span>
                     </li>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
+                    <span className='sidebarListItemText'>Uk Drill</span>
                     </li>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
-                    <span className='sidebarListItemText'>Liked songs</span>    
-                    </li>                            
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
+                    <span className='sidebarListItemText'>Nf Real Music</span>
+                    </li>
                     <li className="order">
-                    <Favorite className='sidebarIcon'/>
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
+                    <span className='sidebarListItemText'>This is Justin Bieber</span>
+                    </li>
+                    <li className="order">
+                        <div className="Icon">
+                         <Favorite className='songIcon'/>
+                        </div>
                     <span className='sidebarListItemText'>Liked songs</span>
                     </li>
                 </ul>
             </div>
+        </div>
         </div>
         <div className="anotherBottom">
          <div className="header">
@@ -48,6 +70,10 @@ export default function Songs() {
             </div>
             <div className="downer">
              <ul className='another_one'>
+                <li className="school_bus">
+                    <Favorite className='sidebarIcon'/>
+                    <span className='sidebarListItemText'>Liked songs</span>
+                </li>
                 <li className="school_bus">
                     <Favorite className='sidebarIcon'/>
                     <span className='sidebarListItemText'>Liked songs</span>
