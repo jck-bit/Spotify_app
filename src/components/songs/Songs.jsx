@@ -1,7 +1,11 @@
 import React from 'react';
 import './songs.css'
-import { Favorite } from '@material-ui/icons';
-import Footer from '../footer/Footer'
+// import { Favorite } from '@material-ui/icons';
+// import Footer from '../footer/Footer'
+
+import content from '../content';
+import Card from './Card';
+import { Another } from './Card.styled';
 
 
 
@@ -123,31 +127,16 @@ export default function Songs() {
             <div className="header">
                 <h1>Discover </h1>
             </div>
-            <div className="downer">
-             <ul className='another_one'>
-                <li className="Discover">
-                    <img src="/assets/person/shin.jpeg" alt=""  className='DiscoverImg'/>
-                    <span className='sidebarListItemText'>Nyashinski</span>
-                </li>
-                <li className="Discover">
-                    <img src="/assets/person/charlie.jpeg" alt=""  className='DiscoverImg'/>
-                    <span className='sidebarListItemText'>Charli Puth</span>
-                </li>
-                <li className="Discover">
-                    <img src="/assets/person/tion.jpeg" alt=""  className='DiscoverImg'/>
-                    <span className='sidebarListItemText'>Tion Wayne</span>
-                </li>
-                <li className="Discover">
-                    <img src="/assets/person/sigrid.jpeg" alt=""  className='DiscoverImg'/>
-                    <span className='sidebarListItemText'>Sigrid</span>
-                </li>
-                <li className="Discover">
-                    <img src="/assets/person/shawn.jpeg" alt=""  className='DiscoverImg'/>
-                    <span className='sidebarListItemText'>Shawn Mendes</span>
-                </li>
-                </ul>
-            </div>  
         </div>
+
+       <Another>
+       {content.map((item, index) =>{
+                return (
+                   <Card key={index} item={item}/>
+                )
+            })}
+       </Another>
+
         {/* <hr/> */}
        {/* <Footer /> */}
   </div>;
