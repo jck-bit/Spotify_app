@@ -30,6 +30,14 @@ const Daily = [
     {
         image:'nf.jpg',
         body:'Nf Real Music'
+    },
+    {
+        image:'jb.jpg',
+        body:'Justin Bieber'
+    },
+    {
+        image:'download.jpeg',
+        body:'Bruno Mars'
     }
 ]
 

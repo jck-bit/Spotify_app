@@ -11,6 +11,12 @@ export const School = styled.div`
 
 export const Main = styled.div`
  padding: 15px;
+
+&:hover{
+    cursor:pointer
+    opacity:0.9;
+    transform:scale(0.99)
+}
 `
 
 
@@ -18,11 +24,15 @@ export const DailyImg = styled.img`
  width: 8rem;
  height: 8rem;
  object-fit: cover;
+
+ &:hover{
+    cursor:pointer
+
 `
 
 export const DownList = styled.span`
 display: inline-block;
-padding-left: 1rem;
-/* padding-right: 1rem; */
-margin-right: inline;
+padding-left: 1.2rem;
+padding-top:2.4rem;
+
 `

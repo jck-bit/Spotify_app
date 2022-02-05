@@ -1,12 +1,13 @@
 import React from 'react';
 import './songs.css'
-
 import content from '../content';
 import Card from './Card';
 import { Another } from './Card.styled';
 import Daily from './Daily';
 import Mixes from './Mixes';
-
+import Good from './Good';
+import Liked from './Liked';
+import { MyList } from './Liked.styled';
 
 
 export default function Songs() {
@@ -21,7 +22,15 @@ export default function Songs() {
         </div>
         <div className="singBottom">
             <div className="List">
-                <ul className='myList'>
+            <MyList>
+               {Good.map((item, index) =>{
+               return(
+                 <Liked key={index} item={item}/>
+               )
+               })}
+            </MyList>
+            
+                {/* <ul className='myList'>
                     <li className="order">
                         <div className="Icon">
                           <img src="/assets/person/like.jpeg" alt="" className="iconImg" />
@@ -64,7 +73,7 @@ export default function Songs() {
                         </div>
                     <span className='sidebarListItemText'>2010 Playlist</span>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </div>
         </div>
@@ -80,6 +89,8 @@ export default function Songs() {
                   )
               })}
             </Another>
+              
+            
 
             <div className="header">
                 <h1>Discover </h1>

@@ -5,15 +5,8 @@
     background-image:linear-gradient(rgb(43, 43, 100), rgb(27, 28, 31))
 }
 
-.myList{
-    list-style: none;
-    display:grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 13.5rem);
-}
 .singTop{
     margin-top:0px;
-    /* background-color: blueviolet; */
     height: 9rem;
 }
 .H1{
@@ -28,79 +21,7 @@ h1{
 }
 
 
-.order{
-    width: 13.5rem;
-    height: 5rem;
-    border-radius: 5px; 
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 4px 15px rgba(1, 1, 1, 10);
-    margin-bottom: 10px;
-}
-
-.order:hover{
-    cursor:pointer;
-}
-
-.Icon{
-    /* background-color: rgb(105, 127, 168); */
-    align-items: center;
-    border-radius:5px;
-    height: 5rem;
-    padding-right: 5px;
-    border-right: 1px solid transparent;
-}
-
-.iconImg{
-    height:5rem;
-}
-
-.sidebarListItemText{
-    padding: px;
-}
 .header{
     margin-left:15px;
 }
 
-.main{
-    padding: 15px;
-    
-}
-
-
-.DailyImg{
-    width: 8rem;
-    height: 8rem;
-    object-fit: cover;
-}
-.DownList{
-    display: inline-block;
-   padding-left: 1rem;
-   /* padding-right: 1rem; */
-   margin-right: inline;
-}
-
-.another_one{
-    list-style: none;
-    display:grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(4, 10rem);
-}
-.school_bus{
-    width: 10rem;
-    height: 15rem;
-    border-radius: 5px; 
-    box-shadow: 0px 4px 15px rgba(1, 1, 1, 10);
-    margin-bottom: 10px;
-}
-
-.Discover{
-    text-align: center;
-}
-
-.DiscoverImg{
-    height: 9rem;
-    width: 9rem;
-    border-radius: 50%;
-    object-fit: cover;
-}

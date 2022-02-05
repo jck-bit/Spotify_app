@@ -21,21 +21,22 @@ const content = [
         body:'Shawn Mendes'
     },
     {
-        Image:'shawn.jpeg',
-        body:'Shawn Mendes'
+        Image:'Bandit.jpeg',
+        body:'Clean Bandit'
     },
     {
-        Image:'shawn.jpeg',
-        body:'Shawn Mendes'
+        Image:'selected.jpg',
+        body:'Selected'
     },
     {
-        Image:'shawn.jpeg',
-        body:'Shawn Mendes'
+        Image:'weekend.jpeg',
+        body:'The Weekend'
     },
     {
-        Image:'shawn.jpeg',
-        body:'Shawn Mendes'
+        Image:'julia.jpeg',
+        body:'Julia Michaels'
     },
+
 ]
 
 export default content;
