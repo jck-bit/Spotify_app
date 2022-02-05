@@ -1,11 +1,11 @@
 import React from 'react';
 import './songs.css'
-// import { Favorite } from '@material-ui/icons';
-// import Footer from '../footer/Footer'
 
 import content from '../content';
 import Card from './Card';
 import { Another } from './Card.styled';
+import Daily from './Daily';
+import Mixes from './Mixes';
 
 
 
@@ -72,58 +72,15 @@ export default function Songs() {
          <div className="header">
                 <h1>Your Daily mixes</h1>
             </div>
-            <div className="downer">
-             <ul className='another_one'>
-               <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/lazer.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>Major Lazer</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/Bandit.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>Clean Bandit Radio </span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/julia.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>julia Michaels</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/nf.jpg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>NF Real Music Radio</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/edm.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>EDM Radio</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/selena.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>This is Selena Gomez</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/drake.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>Trap Music</span>
-                </li>
-                <li className="school_bus">
-                   <div className="main">
-                      <img src="/assets/person/weekend.jpeg" alt="" className="DailyImg" />
-                   </div>
-                    <span className='DownList'>Hit Rewind</span>
-                </li>
-                </ul>
-            </div>  
+            
+            <Another>
+            {Daily.map((item, index) =>{
+                  return(
+                     <Mixes key={index} item={item}/>
+                  )
+              })}
+            </Another>
+
             <div className="header">
                 <h1>Discover </h1>
             </div>
@@ -136,8 +93,5 @@ export default function Songs() {
                 )
             })}
        </Another>
-
-        {/* <hr/> */}
-       {/* <Footer /> */}
   </div>;
 }
