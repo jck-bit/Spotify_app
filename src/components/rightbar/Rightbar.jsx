@@ -1,7 +1,11 @@
-import './rightbar.css'
+import {Outer, OuterImg, Right} from  './Right.styled'
 
 export default function Rightbar() {
-  return <div className='rightbar'>
-      rightbar
-  </div>;
+  return (
+    <Right>
+      <Outer>
+        <OuterImg src='/assets/person/me.jpeg'/>
+      </Outer>
+    </Right>
+  )
 }
