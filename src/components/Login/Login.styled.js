@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper =  styled.div`
  background-image:linear-gradient(rgb(43, 43, 100), rgb(27, 28, 31));
  height:66.8rem;
+
 `
 
 export const Bar = styled.div`
@@ -10,13 +11,23 @@ export const Bar = styled.div`
  top:50%;
  left:50%;
  transform:translate(-50%, -50%)
+ 
+`
+
+export const All = styled.div`
+  height:400px;
+  width:350px;
+  border:1px solid black;
+  border-radius:5px;
+  padding:20px;
 `
 
 export const Search = styled.div`
+   padding: 20px;
+
     & label{
-        display:block;
-        margin: 10px;
-        padding-left:10px 0;
+        display:inline-block;
+        margin: 10px 0px;
     }
 
   & input[type='text']{
@@ -24,6 +35,8 @@ export const Search = styled.div`
     font-size: 16px;
     padding: 10px;
     width: 100%;
+
+
   }
 `
 

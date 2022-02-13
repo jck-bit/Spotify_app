@@ -16,3 +16,7 @@ body{
 .all{
   margin-left: 0%;
 }
+
+.Yoo:focus{
+  outline: none;
+}

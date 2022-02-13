@@ -1,18 +1,21 @@
 import React from 'react'
-import { Bar, Down, Search, Theo, Wrapper,Button } from './Login.styled'
+import { Bar, Down, Search, Theo, Wrapper,Button, All } from './Login.styled'
 
 const Login = () => {
   return (
     <Wrapper>
         <Bar>
-
-            <Theo src='/assets/person/me.jpeg' alt=''/>
+        <All>
+        <Theo src='/assets/person/music.jpeg' alt=''/>
             <Search>
-                <label> Email Address</label>
-                <input type='text' />
+         
+                <label className='All'> Email Address</label>
+                <input type='text' className='Yoo'/>
 
-                <label>Enter Password</label>
-                <input type='text' />
+                <label className='All'>Enter Password</label>
+                <input type='text' className='Yoo'/> 
+             
+               
 
             </Search>
            <Down>
@@ -20,7 +23,10 @@ const Login = () => {
                    Log in
                </Button>
                
-           </Down>  
+           </Down> 
+         
+        </All>
+
         </Bar>
     </Wrapper>
   )
