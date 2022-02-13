@@ -1,7 +1,9 @@
 body{
-  font-family: 'ubuntu', serif;
+  font-family:sans-serif;
   color: white;
-  background-color: black;
+  background-color: rgb(54, 51, 51);
+  font-size: 14px;
+
 
 }
 
@@ -11,3 +13,6 @@ body{
   
 }
 
+.all{
+  margin-left: 0%;
+}

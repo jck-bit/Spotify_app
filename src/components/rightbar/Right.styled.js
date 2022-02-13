@@ -19,17 +19,3 @@ export const OuterImg = styled.img`
   object-fit:cover;
   border-radius:50%;
 `
-
-export const Span = styled.span`
-  width: 15px;
-  height: 15px;
-  background-color: green;
-  border-radius: 50%;
-  color: white;
-  position: absolute;
-  top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-`
